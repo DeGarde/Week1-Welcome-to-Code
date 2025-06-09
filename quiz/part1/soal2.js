@@ -117,7 +117,7 @@ switch (tanggal) {
 }
 
 switch (bulan) {
-    case "1":
+    case "januari":
         bulan = "Januari";
         break;
     case "februari":
@@ -201,5 +201,5 @@ switch (tahun) {
         break;
 }
 
-console.log(`${31} ${1} ${1934}`); // tampilkan hasil format tanggal
+console.log(`${tanggal} ${bulan} ${tahun}`); // tampilkan hasil format tanggal
 // Output: '31 Januari 2001' (atau sesuai dengan nilai variabel yang telah diisi)
