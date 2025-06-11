@@ -8,7 +8,7 @@
 // Tabib "halo tabib $(nama), kamu akan membantu temanmu yang terluka", Penyihir "halo penyihir $(nama), ciptakan keajaiban yang membantu kemenanganmu"
 // 6. bila peran yang diisi tidak ada ketiga  pera yang diatas, maka berikan "tapi kayaknya kamu jadi bot aja ya, peran yang kamu pilih ga ada"
 
-let nama = "Dgarde", peran = "Kesatria"; // assign nilai variabel nama dan peran disini! (dengan string)
+let nama = "Harkon", peran = "Kesatria"; // assign nilai variabel nama dan peran disini! (dengan string)
 
 if (nama === "") {
     console.log("nama wajib diisi");
